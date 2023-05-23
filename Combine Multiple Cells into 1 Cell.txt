@@ -1,0 +1,6 @@
+Last Updated: 2023-05-23 - George Horsey 
+
+In the column you want to combine cells into (example column D) use the following formula. 
+
+=CONCATENATE(A1,"-",B1,"-",C1)
+
