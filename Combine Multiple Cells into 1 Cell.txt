@@ -2,5 +2,21 @@ Last Updated: 2023-05-23 - George Horsey
 
 In the column you want to combine cells into (example column D) use the following formula. 
 
+
+=CONCATENATE(A1,B1,C1)
+
+Function also accepts ranges:
+
+=CONCATENATE(A1:C1)
+
+The 2 above would give the same result. 
+
+
+Options for seperation between the combined cells. 
+
 =CONCATENATE(A1,"-",B1,"-",C1)
 
+The above is an example of combining Columns for Year, Month, Day into a single cell. 
+
+Example expected formula strings: 
+=CONCATENATE(columnAndRow,"seperator",columnAndRow,"seperator",columnAndRow)  
